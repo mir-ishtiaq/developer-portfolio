@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 h1 {
@@ -15,8 +16,8 @@ h3 {
 }
 
 #abt {
-
-    font-size: small;
+    padding-top: 1px;
+    font-size: medium;
     text-align: justify;
 }
 
@@ -24,9 +25,13 @@ section {
     display: flex;
 }
 
-.half-widht {
+.half-width {
     width: 50%;
-    padding-left: 10%;
+    padding-left: 3.5%;
+}
+
+.half-width img {
+    width: 80%;
 }
 
 .link-button {
@@ -40,6 +45,14 @@ section {
 
 }
 
-.half-widht img {
-    width: 100%;
+
+
+.skill {
+    color: rgb(247, 95, 7);
+    font-weight: 700;
+}
+
+.top-banner1 {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
