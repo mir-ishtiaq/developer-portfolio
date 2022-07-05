@@ -21,7 +21,7 @@ h3 {
     text-align: justify;
 }
 
-section {
+.flex-cont {
     display: flex;
     margin-bottom: 50px;
 
@@ -68,4 +68,12 @@ section {
 
 #drm {
     color: rgb(14, 15, 73);
+}
+
+.orange-clr {
+    color: orange;
+}
+
+.brown-clr {
+    color: brown;
 }
