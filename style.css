@@ -7,8 +7,8 @@ h1 {
     font-size: xx-large;
 }
 
-.nm {
-    color: orange;
+h2 {
+    font-size: x-large;
 }
 
 h3 {
@@ -19,6 +19,10 @@ h3 {
     padding-top: 1px;
     font-size: medium;
     text-align: justify;
+}
+
+.nm {
+    color: orange;
 }
 
 .flex-cont {
@@ -76,4 +80,37 @@ h3 {
 
 .brown-clr {
     color: brown;
+}
+
+.exprnc-item {
+    width: 50%;
+    margin-left: 8%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+
+}
+
+.experience {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#fullstack {
+    border-left: 7px solid tomato;
+}
+
+#baby {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
+}
+
+#expr {
+    margin-left: 15px;
 }
